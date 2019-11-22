@@ -1,37 +1,37 @@
 {
-  "name": "@dwebjs/resolve",
-  "description": "Library for resolving dWeb URLs",
-  "version": "1.0.0",
-  "contributors": [
-    "Jared Rice Sr. <jared@dpeeps.com>",
-    "Peeps Labs <labs@dpeeps.com>"
-  ],
-  "bugs": {
-    "url": "https://github.com/dwebjs/resolve/issues"
-  },
-  "dependencies": {
-    "@dwebjs/encoding": "dwebjs/encoding#master",
-    "@dwebjs/network": "dwebjs/network#master",
-    "@debug": "^4.1.1",
-    "@simple-get": "^3.0.3"
-  },
-  "devDependencies": {
-    "standard": "^12.0.1",
-    "tape": "^4.9.2"
-  },
-  "homepage": "https://dwebs.io",
-  "keywords": [
-    "dweb",
-    "distributed-web",
-    "dweb-resolve"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dwebjs/resolve.git"
-  },
-  "scripts": {
-    "test": "standard && tape test/*.js"
-  }
+    "name": "@dwebjs/resolve",
+    "description": "Library for resolving dWeb URLs",
+    "version": "1.0.0",
+    "contributors": [
+        "Jared Rice Sr. <jared@dpeeps.com>",
+        "Peeps Labs <labs@dpeeps.com>"
+    ],
+    "bugs": {
+        "url": "https://github.com/dwebjs/resolve/issues"
+    },
+    "dependencies": {
+        "@dwebjs/encoding": "dwebjs/encoding#master",
+        "@dwebjs/network": "dwebjs/network#master",
+        "debug": "^4.1.1",
+        "simple-get": "^3.0.3"
+    },
+    "devDependencies": {
+        "standard": "^12.0.1",
+        "tape": "^4.9.2"
+    },
+    "homepage": "https://dwebs.io",
+    "keywords": [
+        "dweb",
+        "distributed-web",
+        "dweb-resolve"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dwebjs/resolve.git"
+    },
+    "scripts": {
+        "test": "standard && tape test/*.js"
+    }
 }
